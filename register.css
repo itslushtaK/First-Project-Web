@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: sans-serif;
+}
+.email{
+    text-align: center;
+}
+.confirmpw{
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+  }
+.pw{
+    text-align: center;
+    color: #fff;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(background.jpg);
+    background-size:cover;
+    background-position: center;
+} 
+.navbar{
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+ .navbar ul li{
+     list-style-type: none;
+     display: inline-block;
+     margin: 0 15px;
+     position: relative;
+ } .navbar ul li a{
+     text-decoration: none;
+     color: #fff;
+     text-transform: uppercase;
+ }
+ .navbar ul li ::after{
+     content: '';
+     height: 3px;
+     width: 0%;
+     background: lightblue;
+     position: absolute;
+     left: 0;
+     bottom:-10px;
+     transition: 0.5s;
+ } .navbar ul li :hover::after{
+     width: 100%;
+ }
+ 
+ button{
+    text-align: center;
+
+    text-transform: uppercase;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}span{
+    background: blueviolet;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+ button:hover{
+    opacity: 0.5;
+    border: none;
+}
+
+
+ .navbari{
+    margin: 80px;
+}
+.logoja{
+    margin-top: -20px;
+    margin-left: 40px;
+    width: 600px;
+}
+ .email , .password{
+    text-align: right;
+ }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        border: 3px solid green;
+     
+}
+.btn{
+    text-align: right;
+}
+
+input [type=email]{
+    text-align: center;
+}
+#error{
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;}
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+      }
+      
+      img.logo {
+        width: 20%;
+        border-radius: 50%;
+      }
+ 
+
+ 
